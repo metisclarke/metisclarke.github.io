@@ -1,0 +1,211 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  h5 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+  }
+  
+  h5:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    padding: 45px;
+    top: 0px;
+    z-index: 2;
+    height: 10px;
+    /*background-image: url(https://images.unsplash.com/photo-1579492450119-80542d516179?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);*/
+    
+  }
+
+  #menu {
+    position: absolute;
+    left: 150px;
+  }
+
+  #menu-image {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    opacity: 80%;
+
+  }
+  
+  
+  #search {
+    position: absolute;
+    top: 46px;
+    right: 300px;
+    padding: 5px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  #header-logo {
+    position: absolute;
+    height: 70px;
+    width: 250px;
+    top: 68px;
+    right: 690px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  #product-image-container {
+    position: relative;
+    height: 600px;
+    top: 50px;
+    padding-top: 160px;
+    padding-left: 10%;
+    padding-right: 60px;
+    padding-bottom: 100px;
+    background-color: white;
+    width: 100%;
+    /*background-image: url(https://images.unsplash.com/photo-1579492450119-80542d516179?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);*/
+  }
+  
+  img {
+    width: 240px;
+    width: 410px;
+  }
+  
+  .product-title {
+    font-weight: bold;
+  }
+  
+  .border {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  #nav-for-main {
+    position: relative;
+    background-color: white;
+    left: 104px;
+    width: 200px;
+    top: 150px;
+    z-index: 1;
+  }
+  
+  #site-name {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  #currentpage {
+    position: absolute;
+    color: grey;
+    bottom: 0px;
+    left: 60px;
+    font-size: 14px;
+  }
+  
+  #results {
+    font-weight: bold;
+    position: absolute;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  #image-one {
+    left: -50px;
+    width: 400px;
+  }
+  
+  #image-one-text {
+    left: -50px;
+    top: 610px;
+    width: 200px;
+  }
+    
+  #image-two {
+    left: 390px;
+    width: 400px;
+  }
+  
+  #image-two-text {
+    left: 390px;
+    width: 410px;
+    top: 610px;
+  }
+
+  #image-three-text {
+    left: 810px;
+    top: 610px;
+  }
+
+  #image-three {
+    left: 830px;
+    width: 400px;
+  }
+
+  #span-one {
+    right: -200px; 
+  }
+  
+  #span-two {
+    right: 10px;
+  }
+
+  footer {
+    width: 100%;
+    position: relative;
+    top: 150px;
+    height: 400px;
+    background-color: #fafaed;
+  }
+
+  #necklace-logo {
+    position: absolute;
+    left: 525px;
+    bottom: 70px;
+  }
+
+  #to-the-top-button {
+    position: relative;
+    left: 630px;
+    top: 70px;
+    background-color: lavenderblush;
+    font-weight: bold;
+    padding: 30px;
+    font-size: 15px;
+    border: 2px solid black;
+    padding-right: 60px;
+  }
+
+  #button-arrow {
+    position: absolute;
+    height: 30px;
+    width: 15px;
+    top: 22px;
+    left: 170px;
+
+
+  }
+
+
+
+
+
